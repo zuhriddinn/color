@@ -1,0 +1,26 @@
+.child {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+    text-align: center;
+    background-color: red;
+    color: yellowgreen;
+}
+
+.colours {
+    position: fixed;
+    transform: translateX(-110%);
+    margin-top: 70px;
+    transition: 0.5s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
